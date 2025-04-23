@@ -1,6 +1,7 @@
 
 import './App.css'
 import ButtonHover from './Component/bottonHover'
+
 function App() {
   return (
     <>
@@ -13,7 +14,7 @@ function App() {
         <p className=' m-4 text-3xl text-center font-bold flex justify-center '>Your content's guardian angelbringing your videos to life.</p>
         <div className=' flex justify-center center'>
         <div className=' h-10 w-45 flex justify-center ' >
-        <ButtonHover content= 'Work With Me!' color='#ffd300' css=' font-bold text-xl'/>
+        <ButtonHover content= 'Work With Me!' color='#ffd300' css=' font-bold text-xl' link=' '/>
         </div>
         </div>
         <div className='  relative m-10 grid md:grid-cols-2 grid-cols-1'>
