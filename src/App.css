@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+.background-container::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('./assets/background.jpg'); /* Use the correct path */
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px); /* Adjust the blur intensity as needed */
+  z-index: -1;
+}
