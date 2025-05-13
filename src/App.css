@@ -3,13 +3,16 @@
 
 
 body{
-  background-color: #191d1f;
+  background-color: #000;
   display: flex;
   justify-content: center;
   padding: 50px 0px;
+  background-image: radial-gradient(#ffffff56 3%, transparent 0);
+  background-size: 35px 35px;
+  z-index: 0;
   
 }
-.curser-outline,
+.cursor-outline,
 .cursor{
   position: fixed;
   top:0;
@@ -19,4 +22,10 @@ body{
   z-index: 1;
   
 }
+.iceland-regular {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 

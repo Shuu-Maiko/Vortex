@@ -1,4 +1,4 @@
-import React, { useState, MouseEvent , useEffect , MouseEventHandler  } from 'react';
+import  { useState, useEffect   } from 'react';
 
 interface Coordinates {
   x: number;
@@ -7,7 +7,7 @@ interface Coordinates {
 
 export default function Cursor(){
     const [coordinates, setCoordinates] = useState<Coordinates>({ x: -100, y: -100 }); // Initialize off-screen
-    const [isVisible, setIsVisible] = useState<boolean>(false);
+    
 
     useEffect(() => {
     window.addEventListener('mousemove' , (e)=>{
