@@ -18,7 +18,7 @@ export default function Cursor(){
     return(
     <>
     {coordinates.x  } {coordinates.y }
-    <div className= {` absolute cursor-outline size-16 border-white border-2 rounded-4xl  transition-normal duration-500 ease-out  `} style={{left: `${coordinates.x}px` , top: `${coordinates.y}px` ,pointerEvents: 'none'  }}   >
+    <div className= {` absolute cursor-outline size-16 border-white border-2 rounded-4xl  transition-normal duration-200 ease-out  `} style={{left: `${coordinates.x}px` , top: `${coordinates.y}px` ,pointerEvents: 'none'  }}   >
     </div>
     <div className={`absolute  cursor size-4 bg-white rounded-4xl `} style={{left: `${coordinates.x}px` , top: `${coordinates.y}px` , pointerEvents: 'none'}}></div>
     </>
